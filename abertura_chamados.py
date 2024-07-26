@@ -2,7 +2,7 @@ import pyautogui
 import time
 
 import pandas as pd
-tabela = pd.read_csv(r"C:\Users\jcsil\OneDrive\Documentos\Teste Projeto Automacao\cliente-assunto-descricao.csv")
+tabela = pd.read_csv(r"C:\Users\jcsil\OneDrive\Documentos\Meusprojetos\Projeto-Automacao-em-Python\cliente-assunto-descricao.csv")
 
 pyautogui.PAUSE = 1.5
 
@@ -14,7 +14,6 @@ pyautogui.write("https://suporte.starsoft.com.br/portal/pt/myarea?viewId=1265870
 pyautogui.press("Enter")
 time.sleep (3)
 pyautogui.click(x=1111, y=282)
-
 
 
 for linha in tabela.index:
