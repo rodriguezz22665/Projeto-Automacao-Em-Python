@@ -2,7 +2,7 @@ import pyautogui
 import time
 
 import pandas as pd
-tabela = pd.read_csv(r"C:\Users\jcsil\OneDrive\Documentos\Meusprojetos\Projeto-Automacao-em-Python\cliente-assunto-descricao.csv")
+tabela = pd.read_csv(r"C:\Users\rodri\OneDrive\Documentos\Projeto-Automacao-em-Python\cliente-assunto-descricao.csv")
 
 pyautogui.PAUSE = 1.5
 
